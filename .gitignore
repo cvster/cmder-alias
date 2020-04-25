@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+!/config
+!/config/user_aliases.cmd
+
+# bin
+# icons
+# vendor
+# Cmder.exe
+# cmder.zip
+# LICENSE
+# Version*
