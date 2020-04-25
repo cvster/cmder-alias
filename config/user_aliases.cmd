@@ -13,3 +13,16 @@ history=cat -n "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
+
+;= rem rename tab
+re=cmd /c RenameTab "$*"
+
+;= rem open new tab
+new=cmd /k %CMDER_ROOT%\vendor\init.bat /icon "%CMDER_ROOT%\icons\cmder.ico" -new_console:C:%CMDER_ROOT%\icons\cmder.ico
+
+;= rem open new tab in admin mode
+sudo=cmd /k %CMDER_ROOT%\vendor\init.bat /icon "%CMDER_ROOT%\icons\cmder.ico" -new_console:C:%CMDER_ROOT%\icons\cmder.ico -new_console:a
+
+;= rem open new tab specifing run_dir and tab_name
+test_new_tab = cmd /k %CMDER_ROOT%\vendor\init.bat -new_console:d:E:\gaoliu\mycode\vnbit -new_console:t:new_tab_name
+
