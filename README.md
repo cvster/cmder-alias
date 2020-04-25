@@ -1,5 +1,5 @@
 # cmder-alias
-useful alias for cmder
+useful alias for cmder. Just add the code to your cmder_root/config/user_aliases.cmd
 
 ## alias:
 
