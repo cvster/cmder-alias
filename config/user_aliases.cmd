@@ -13,7 +13,6 @@ history=cat -n "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
-sudo=ConEmuC -c $* -new_console:a
 
 ;= rem rename tab
 re=cmd /c RenameTab "$*"
