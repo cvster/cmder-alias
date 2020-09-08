@@ -27,3 +27,4 @@ sudo=cmd /k %CMDER_ROOT%\vendor\init.bat /icon "%CMDER_ROOT%\icons\cmder.ico" -n
 ;= rem open new tab specifing run_dir and tab_name
 test_new_tab = cmd /k %CMDER_ROOT%\vendor\init.bat -new_console:d:E:\gaoliu\mycode\vnbit -new_console:t:new_tab_name
 
+gitpp = git pull & git push
